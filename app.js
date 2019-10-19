@@ -26,7 +26,7 @@ bot.on('message', function (event) {
 });
 
 
-app.post('/', linebotParser);
+app.post('/linewebhook', linebotParser);
 
 
 app.listen(process.env.PORT || 3000, () => {
