@@ -48,12 +48,12 @@ bot.on('message', function (event) {
     default:
       event.reply('不要再說了，我肚子好餓，趕快餵我！')
   }
-  if (event.message.text = )
-    event.reply(event.message.text).then(function (data) {
-      // success
-    }).catch(function (error) {
-      // error
-    });
+  // if (event.message.text = )
+  //   event.reply(event.message.text).then(function (data) {
+  //     // success
+  //   }).catch(function (error) {
+  //     // error
+  //   });
 });
 
 
